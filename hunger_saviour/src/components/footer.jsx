@@ -1,4 +1,4 @@
-import { Box, Text, Stack, Image, Grid, Flex } from "@chakra-ui/react";
+import { Box, Text, Stack, Image, Grid } from "@chakra-ui/react";
 import logo from "../logo/Logo.png";
 
 export default function Footer() {
