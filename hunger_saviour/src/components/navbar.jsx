@@ -1,9 +1,6 @@
 import { Box, Text, Image, Flex, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import Homepage_1 from "../homepage/homepage_1";
 import logo from "../logo/Logo.png";
-import Login from "./login";
-import Sign_up from "./sing_up";
 
 export default function Navbar() {
     return(
