@@ -9,12 +9,12 @@ export default function Homepage_1() {
         <>
             <Navbar />
 
-            <Stack pt="80px" fontFamily="sans-serif">
+            <Stack fontFamily="sans-serif">
                 <Flex>
                     <Box w="60%">
                         <Image w="100%" src="https://www.themealkitcomparison.com/wp-content/uploads/2020/12/oven-ready-hello-fresh.jpg" alt="Image" />
                         <Box pos="relative">
-                            <Text w="350px" color="white" fontWeight="bold" fontSize="4xl" pos="absolute" top="-130" left="550">Delivered to you fresh, not frozen.</Text>
+                            <Text w="350px" color="black" fontWeight="bold" fontSize="4xl" pos="absolute" top="-130" left="550">Delivered to you fresh, not frozen.</Text>
                         </Box>
                     </Box>
                     <Box w="40%" backgroundColor="#85e5c6" p="30px" textAlign="left">
@@ -67,6 +67,55 @@ export default function Homepage_1() {
                 </Box>
             </Stack>
 
+            {/* On the Menu */}
+
+            <Box mt="4%" pos="relative">
+                <Image src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/2/0/hnyglzcarr_199.jpg.rend.hgtvcom.966.725.suffix/1393013558191.jpeg" alt="Image" w="100%" />
+                <Grid bgColor="white" pos="absolute" top="10%" left="20%" w="60%" justifyItems="left" p="20px 30px">
+                    <Heading fontSize="5xl">On the menu</Heading>
+                    <Text fontSize="xl" mt="10px" align="left">Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.</Text>
+                    <Grid templateColumns="repeat(3,1fr)" templateRows="repeat(2,1fr)" gap="20px" mt="30px" p="10px">
+                        <Box  transition="transform 0.3s" _hover={{transform: "scale(1.1)"}} textAlign="left">
+                            <Image borderRadius="20px" w="100%" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb765dff2da0c2e1fb_635823f4ce4929328b1f96f9_production-meal-image-9e969581-d09c-4617-9b17-d455d23c8952.jpeg" alt="Image" />
+                            <Text fontSize="xl" fontWeight="bold" mt="10px" >BBQ Bison Burger</Text>
+                            <Text color="#678387">610 Cal | Gluten Free |</Text>
+                            <Text color="#678387">Single-Serve</Text>
+                        </Box>
+                        <Box  transition="transform 0.3s" _hover={{transform: "scale(1.1)"}} textAlign="left">
+                            <Image borderRadius="20px" w="100%" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8cd4f9d87ba86916_635823f4ce492977d91f974a_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg" alt="Image" />
+                            <Text fontSize="xl" fontWeight="bold" mt="10px" >Sausage Baked Penne</Text>
+                            <Text color="#678387">470 Cal | Gluten Free |</Text>
+                            <Text color="#678387">Single-Serve</Text>
+                        </Box>
+                        <Box  transition="transform 0.3s" _hover={{transform: "scale(1.1)"}} textAlign="left">
+                            <Image borderRadius="20px" w="100%" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb5ae22f4680ff53d8_635823f4ce492947161f9738_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg" alt="Image" />
+                            <Text fontSize="xl" fontWeight="bold" mt="10px" >Homestyle Chicken</Text>
+                            <Text color="#678387">560 Cal | Gluten Free |</Text>
+                            <Text color="#678387">Single-Serve</Text>
+                        </Box>
+                        <Box  transition="transform 0.3s" _hover={{transform: "scale(1.1)"}} textAlign="left">
+                            <Image borderRadius="20px" w="100%" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb8b1f5aa9b139be56_635823f4ce492904901f973e_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg" alt="Image" />
+                            <Text fontSize="xl" fontWeight="bold" mt="10px" >Cauliflower Shell Beef Bolognese</Text>
+                            <Text color="#678387">490 Cal | Gluten Free |</Text>
+                            <Text color="#678387">Single-Serve</Text>
+                        </Box>
+                        <Box  transition="transform 0.3s" _hover={{transform: "scale(1.1)"}} textAlign="left">
+                            <Image borderRadius="20px" w="100%" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb7be30f1df3054aa2_635823f4ce492958261f9755_production-meal-image-29e2b6e1-12af-405d-8b33-91e19b2a0fef.jpeg" alt="Image" />
+                            <Text fontSize="xl" fontWeight="bold" mt="10px" >Tricolor Beef Lasagna</Text>
+                            <Text color="#678387">640 Cal | Gluten Free |</Text>
+                            <Text color="#678387">Single-Serve</Text>
+                        </Box>
+                        <Box  transition="transform 0.3s" _hover={{transform: "scale(1.1)"}} textAlign="left">
+                            <Image borderRadius="20px" w="100%" src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/636a66bb684a20a3c8466513_635823f4ce492969991f9772_production-meal-image-25f9ce2d-ca21-499e-a140-8d59b4733ec2.jpeg" alt="Image" />
+                            <Text fontSize="xl" fontWeight="bold" mt="10px" >Flame-Seared Top Blade Steak</Text>
+                            <Text color="#678387">610 Cal | Gluten Free |</Text>
+                            <Text color="#678387">Single-Serve</Text>
+                        </Box>
+                    </Grid>
+                    <Button colorScheme="blue" w="100%" m="30px auto 10px auto">View Plans & Menu</Button>
+                </Grid>
+            </Box>
+
             {/* Flexible Plans */}
 
             <Stack w="85%" m="2% auto 2% auto" textAlign="center" fontFamily="sans-serif">
@@ -99,7 +148,7 @@ export default function Homepage_1() {
                 <Box><Button colorScheme="blue" m="1% auto 2% auto">Sign Up Now</Button></Box>
             </Stack>
 
-            {/*  */}
+            {/* About */}
 
             <Stack w="90%" m="3% auto 3% auto" fontFamily="sans-serif">
                 <Grid templateColumns="40% 60%" alignItems="center">
