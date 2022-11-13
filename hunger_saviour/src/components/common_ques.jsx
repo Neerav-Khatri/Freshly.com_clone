@@ -3,12 +3,12 @@ import { Accordion, AccordionItem, AccordionButton, Box, AccordionIcon, Accordio
 function Questions() {
     return (
         <>
-            <Box w="80%" m="5% auto 5% auto" fontFamily="sans-serif">
+            <Box w="80%" m="2% auto 5% auto" fontFamily="sans-serif">
                 <Heading m="2% auto 3% auto" fontSize="4xl" >Common Questions</Heading>
                 <Accordion allowToggle>
                     <AccordionItem>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} mt="5px" mb="5px" >
+                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} p="10px" >
                             How many servings are your meals?
                             </Box>
                             <AccordionIcon color="#2a76fe"/>
@@ -21,7 +21,7 @@ function Questions() {
 
                     <AccordionItem>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} mt="5px" mb="5px" >
+                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} p="10px" >
                             Do you accommodate dietary preferences?
                             </Box>
                             <AccordionIcon color="#2a76fe"/>
@@ -33,7 +33,7 @@ function Questions() {
 
                     <AccordionItem>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} mt="5px" mb="5px" >
+                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} p="10px" >
                             How long do the meals last?
                             </Box>
                             <AccordionIcon color="#2a76fe"/>
@@ -45,7 +45,7 @@ function Questions() {
 
                     <AccordionItem>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} mt="5px" mb="5px" >
+                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} p="10px" >
                             How do I heat up my meals?
                             </Box>
                             <AccordionIcon color="#2a76fe"/>
@@ -57,7 +57,7 @@ function Questions() {
 
                     <AccordionItem>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} mt="5px" mb="5px" >
+                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} p="10px" >
                             How does shipping work?
                             </Box>
                             <AccordionIcon color="#2a76fe"/>
@@ -69,7 +69,7 @@ function Questions() {
 
                     <AccordionItem>
                         <AccordionButton>
-                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} mt="5px" mb="5px" >
+                            <Box flex='1' textAlign='left'fontSize="lg" fontWeight="bold" _hover={{color:"#2a76fe"}} p="10px" >
                             How does the subscription work?
                             </Box>
                             <AccordionIcon color="#2a76fe"/>
